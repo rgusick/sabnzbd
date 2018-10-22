@@ -14,4 +14,6 @@ RUN     apt-get update && \
 
 RUN     easy_install pip
 
-RUN     pip install pynzbget
+RUN     pip install \
+                pynzbget \
+                pyopenssl
